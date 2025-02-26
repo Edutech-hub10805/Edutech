@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education Website</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header { background: #2C3E50; color: white; padding: 15px; text-align: center; }
+        nav { display: flex; justify-content: center; background: #34495E; padding: 10px; }
+        nav a { color: white; padding: 10px 20px; text-decoration: none; }
+        section { padding: 20px; text-align: center; }
+        footer { background: #2C3E50; color: white; text-align: center; padding: 10px; position: fixed; bottom: 0; width: 100%; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Education Platform</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#courses">Courses</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="home">
+        <h2>Learn Anytime, Anywhere</h2>
+        <p>Explore our wide range of courses and start your learning journey today!</p>
+    </section>
+    <section id="courses">
+        <h2>Our Courses</h2>
+        <p>We offer various courses in different domains.</p>
+    </section>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are dedicated to providing quality education to students worldwide.</p>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@educationplatform.com</p>
+    </section>
+    <footer>
+        <p>&copy; 2025 Education Platform. All rights reserved.</p>
+    </footer>
+</body>
+</html>
